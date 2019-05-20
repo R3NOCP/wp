@@ -83,3 +83,7 @@ Version: 1.0
     background-color: #4285f4;
     color: #ffffff;
 }
+
+.page-layout h2 {
+    font-size: 30px;
+}
