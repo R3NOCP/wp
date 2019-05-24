@@ -22,3 +22,21 @@ function sidebar_default() {
         )
     );
 }
+
+add_theme_support( 'custom-header' );
+
+$defaults = array(
+	'default-image'          => 'http://localhost:8080/wp/wp-content/uploads/2019/05/wordpress.png',
+	'width'                  => 960,
+	'height'                 => 300,
+	'flex-height'            => true,
+	'flex-width'             => true,
+	'uploads'                => true,
+	'random-default'         => false,
+	'header-text'            => true,
+	'default-text-color'     => 'fff',
+	'wp-head-callback'       => '',
+	'admin-head-callback'    => '',
+	'admin-preview-callback' => '',
+);
+add_theme_support( 'custom-header', $defaults );
