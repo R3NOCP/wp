@@ -16,6 +16,8 @@ else :
 	echo '<p>There are no pages!</p>';
 endif;
 
+get_sidebar( 'primary' );
+
 get_footer();
 
 ?>
