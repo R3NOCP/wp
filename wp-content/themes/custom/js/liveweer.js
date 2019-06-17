@@ -1,12 +1,8 @@
 const app = document.getElementById('liveweer')
 
-const logo = document.createElement('img')
-logo.src = 'https://www.iphone.nl/uploads/cgblog/id370/weeronline.nl_downloaden.jpg'
-
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
 
-app.appendChild(logo)
 app.appendChild(container)
 
 var xhr = new XMLHttpRequest()
@@ -27,6 +23,7 @@ xhr.onload = function() {
 
       container.appendChild(card)
       card.appendChild(h1)
+      card.appendChild(h2)
     })
   } else {
     const errorMessage = document.createElement('marquee')
