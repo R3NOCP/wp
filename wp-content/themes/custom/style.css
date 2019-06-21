@@ -99,3 +99,11 @@ Version: 1.0
     background: #d7fee8;
     padding: 10px;
 }
+
+.sidebar {
+    position: relative;
+    float: right;
+    width: 300px;
+    font-size: 100%;
+
+  }
