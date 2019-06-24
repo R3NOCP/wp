@@ -139,25 +139,11 @@ max-width: 75%;
    width: 268px;
 }
 
-.selectbox.slate {
-   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
-   height: 34px;
-   width: 240px;
-}
 
-.selectbox.slate select {
-   border: 1px solid #ccc;
-   font-size: 16px;
-   height: 34px;
-   width: 268px;
-}
-
-
-/* Add a gray background color with some padding */
 body {
   font-family: Arial;
   padding: 20px;
-  background: #f1f1f1;
+  background: #ffffff;
 }
 
 
@@ -207,4 +193,19 @@ body {
     width: 3.631em;
     height: 40px;
     text-align: center;
+}
+
+.orderby {
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.orderby select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
 }
