@@ -108,8 +108,15 @@ Version: 1.0
     padding: 10px;
 }
 
+.sidebar_default {
+    float: right;
+    width: 300px;
+    font-size: 100%;
+    margin-bottom: 150px;
+
+  }
+
 .sidebar {
-    position: relative;
     float: right;
     width: 300px;
     font-size: 100%;
@@ -174,4 +181,33 @@ max-width: 75%;
 
 .weer-container {
   padding: 2px 16px;
+}
+
+.selectbox {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.selectbox select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.selectbox.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+.selectbox.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
 }
