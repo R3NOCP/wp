@@ -40,3 +40,11 @@ $defaults = array(
 	'admin-preview-callback' => '',
 );
 add_theme_support( 'custom-header', $defaults );
+
+add_theme_support( 'custom_logo', array(
+	'height'      => 156,
+	'width'       => 340,
+	'flex-height' => true,
+	'flex-width'  => true,
+	'header-text' => array( 'site-title', 'site-description' ),
+) );

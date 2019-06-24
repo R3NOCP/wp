@@ -2,6 +2,13 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+  <div class="custom-logo">
+<?php
+   $custom_logo_id = get_theme_mod( 'custom_logo' );
+   $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+      ?>
+<img src="<?php echo $image[0]; ?>" alt=""></div>
+
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <title><?php bloginfo( 'name' ); ?></title>
 	<?php wp_head() ?>
