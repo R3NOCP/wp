@@ -5,7 +5,7 @@ container.setAttribute('class', 'container');
 
 app.appendChild(container);
 
-refreshWeatherData('amsterdam');
+refreshWeatherData('Select your city');
 
 function refreshWeatherData(cityName){
     var xhr = new XMLHttpRequest()
