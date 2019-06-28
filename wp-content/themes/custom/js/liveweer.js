@@ -25,9 +25,13 @@ function refreshWeatherData(cityName){
                 const h1 = document.createElement('h1');
                 h1.textContent = liveweer.temp;
 
+                const p = document.createElement('p');
+                p.textContent = liveweer.samenv;
+
                 container.appendChild(card);
                 card.appendChild(h2);
                 card.appendChild(h1);
+                card.appenChild(p);
 
             })
         } else {
