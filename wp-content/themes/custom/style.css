@@ -104,8 +104,10 @@ Version: 1.0
 }
 
 .page-layout {
-max-width: 75%;
-
+  display: block;
+  float: left;
+  margin-right: 29.4118%;
+  width: 70.5882%;
 }
 
 .weer-card {
@@ -209,3 +211,63 @@ body {
    padding: 5px; /* If you add too much padding here, the options won't show in IE */
    width: 268px;
 }
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #002e5b;
+    font-size: 40px;
+}
+
+.woocommerce ul.products li.product .price {
+        color: #002e5b;
+        display: block;
+        font-weight: 900;
+        margin-bottom: .5em;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    a:link, a:visited {
+    color: #4285f4;
+    text-align: center;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #515151;
+    background-color: #ebe9eb;
+    border: 0;
+    display: inline-block;
+    padding: 15px 65px;
+}
+
+.sidebar {
+        float: right;
+        margin-left: -100%;
+        max-width: 413px;
+        position: relative;
+        width: 29.4118%;
+    }
+
+    @media screen and (min-width: 59.6875em) {
+        body:before {
+            background-color: #fff;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+            content: "";
+            display: block;
+            height: 100%;
+            min-height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 29.4118%;
+            z-index: 0; /* Fixes flashing bug with scrolling on Safari */
+        }
