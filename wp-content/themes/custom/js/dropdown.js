@@ -16,6 +16,6 @@ function myFunction() {
               document.getElementById("imgselect").setAttribute("src", "http://localhost:8080/wp/wp-content/uploads/2019/06/utrecht.png");
 
   else if (x === "Select your city")
-                          document.getElementById("imgselect").setAttribute("src", "#");
+                          document.getElementById("imgselect").setAttribute("src", "http://localhost:8080/wp/wp-content/uploads/2019/06/amsterdam.png");
 
        }

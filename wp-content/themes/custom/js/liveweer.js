@@ -26,12 +26,13 @@ function refreshWeatherData(cityName){
                 h1.textContent = liveweer.temp;
 
                 const p = document.createElement('p');
+                p.setAttribute("id", "p1");
                 p.textContent = liveweer.samenv;
 
                 container.appendChild(card);
                 card.appendChild(h2);
                 card.appendChild(h1);
-                card.appenChild(p);
+                card.appendChild(p);
 
             })
         } else {
